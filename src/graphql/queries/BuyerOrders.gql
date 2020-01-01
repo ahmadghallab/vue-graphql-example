@@ -1,0 +1,12 @@
+query($buyerID: Int!) {
+  getBuyer(buyerID: $buyerID) {
+    buyerID
+    buyerName
+    orders {
+      orderID
+      product {
+        productName
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+mutation(
+    $buyerName: String!
+    $buyerEmail: String!
+    $password: String!
+) {
+    createBuyer (
+        buyerName: $buyerName
+        buyerEmail: $buyerEmail
+        password: $password
+    ) {
+        buyerID
+        buyerName
+        buyerEmail
+    }
+}

@@ -1,0 +1,7 @@
+query {
+  getBuyers {
+    buyerID
+    buyerName
+    buyerEmail
+  }
+}
