@@ -1,4 +1,4 @@
-# Vola UI App
+# Vue.JS and GraphQL
 
 ## Project setup
 ```
